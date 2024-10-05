@@ -31,10 +31,10 @@ notebooks/             - Jupyter notebooks for EDA and model experimentation
     └── README.md      - Notebook-specific documentation
 scripts/               - Python scripts for data processing and model building
     └── eda.py         - EDA script in Python
-    └── credit_risk.py - Model building and scoring script
+    └── credit_risk.py - Understanding credit risk
 src/                   - Source code for the core application logic
 tests/                 - Unit and integration tests for the project
-week6/                 - Placeholder or content for week 6 (customizable)
+week6/                 - project env
 .gitignore             - Files and directories to be ignored by Git
 README.md              - Project-level documentation (this file)
 requirements.txt       - Python dependencies for the project

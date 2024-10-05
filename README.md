@@ -1,4 +1,6 @@
 # Credit Scoring Model Project
+## Project Overview
+This project aims to develop an advanced credit scoring model using transaction-level data. By leveraging modern methodologies such as the Recency, Frequency, Monetary (RFM) model, the project seeks to enhance traditional credit risk assessments through in-depth exploratory data analysis (EDA) and machine learning techniques.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -9,14 +11,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Overview
-This project aims to develop an advanced credit scoring model using transaction-level data. By leveraging modern methodologies such as the Recency, Frequency, Monetary (RFM) model, the project seeks to enhance traditional credit risk assessments through in-depth exploratory data analysis (EDA) and machine learning techniques.
 
-Table of Contents
-Project Overview
-Folder Structure
-Setup
-Usage
 
 Folder Structure
 The following is the high-level structure of the project:

@@ -71,8 +71,11 @@ class EDA:
                     ax = axes[i]
                     # Get value counts, limiting to top categories if necessary
                     value_counts = self.data[col].value_counts().nlargest(max_categories)
+
+                    sns.countplot(x=self.data[col], order=value_counts.index, ax=ax, palette="Set2", hue=self.data[col], legend=False)
+
                     
-                    sns.countplot(x=self.data[col],order=value_counts.index, ax=ax, palette="Set2", hue=None,legend=False)
+                    # sns.countplot(x=self.data[col],order=value_counts.index, ax=ax, palette="Set2", hue=None,legend=False)
                     ax.set_title(f'Distribution of {col}')
                     
                     # Set ticks and tick labels for better handling
